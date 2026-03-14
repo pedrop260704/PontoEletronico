@@ -60,7 +60,7 @@ void loop() {
        
         if (tecla_pressionada == '*') {
           Serial.println("Acesso Liberado: Ponto de ENTRADA");
-          Timer1.initialize(1000000); // 1 segundo em microssegundos
+          Timer1.initialize(1000000); 
           Timer1.attachInterrupt(Contador);
         } 
         
