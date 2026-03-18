@@ -53,9 +53,9 @@ void loop() {
 
       if (acesso == true) {
        Serial.println("Bem Vindo Moreno!");
-       digitalWrite (2, HIGH);
+       digitalWrite (2, HIGH);//Energiza um dos lados da bobina do relé, fechando o circuito
        delay(7000);
-       digitalWrite(2, LOW) ;
+       digitalWrite(2, LOW) ;//Aguarda 7s e abre a chave de novo, trancando a porta
           
           
       } 
